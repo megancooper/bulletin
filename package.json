@@ -1,21 +1,26 @@
 {
-  "dependencies": {
-    "expo": "~38.0.0",
-    "react": "~16.11.0",
-    "react-dom": "~16.11.0",
-    "react-native": "https://github.com/expo/react-native/archive/sdk-38.0.0.tar.gz",
-    "react-native-web": "0.11.7",
-    "styled-components": "^5.1.0"
-  },
-  "devDependencies": {
-    "@babel/core": "7.9.0"
-  },
+  "name": "mobile-app",
+  "main": "node_modules/expo/AppEntry.js",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
     "start": "expo start",
     "android": "expo start --android",
     "ios": "expo start --ios",
     "web": "expo web",
-    "eject": "expo eject"
+    "eject": "expo eject",
+    "test": "node node_modules/jest/bin/jest.js --watch"
   },
-  "private": true
+  "dependencies": {
+    "expo": "38.x.x",
+    "react": "16.x.x",
+    "react-dom": "16.x.x",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-38.0.0.tar.gz",
+    "react-native-web": "0.11.7",
+    "styled-components": "5.x.x"
+  },
+  "devDependencies": {
+    "@babel/core": "7.9.0",
+    "jest": "26.x.x"
+  }
 }

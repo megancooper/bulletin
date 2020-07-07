@@ -14,6 +14,6 @@
 - Install with `yarn` or `npm install`.
 - Run [`expo start`](https://docs.expo.io/versions/latest/workflow/expo-cli/), try it out.
 
-## 📝 Notes
+## Debugging
 
-- [Styled Components docs](https://styled-components.com/)
+Click [CMD] + D to open the expo debugging menu while running the app
